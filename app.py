@@ -126,7 +126,7 @@ if uploaded_file is not None:
         target_col = st.selectbox(
             "Select Target Column",
             df.columns.tolist(),
-            index=len(df.columns)-1
+            index=len(df.columns)-3
         )
         
         # Prepare data
